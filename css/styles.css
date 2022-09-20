@@ -272,7 +272,7 @@ nav .link {
 }
 .member-position {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -286,18 +286,17 @@ nav .link {
 }
 .card-container {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 /* Соціальні посилання  */
 
 .social-links {
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 30px;
   width: 206px;
   height: 44px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .social-item:not(:last-child) {
